@@ -16,7 +16,7 @@ export default function SectionCarrinho() {
       >
         Carrinho
       </h1>
-
+        
       <div
         className="mt-2 text-[18px] flex items-center gap-2 text-[var(--verde-color)]
                    max-[1024px]:text-[16px]
@@ -30,24 +30,9 @@ export default function SectionCarrinho() {
           <span>Home</span>
         </a>
 
-        <span
-          className="inline-block bg-black
-                     max-[1024px]:w-[20px] max-[1024px]:h-[20px]
-                     max-[768px]:w-[16px] max-[768px]:h-[16px]
-                     max-[480px]:w-[12px] max-[480px]:h-[12px]"
-          style={{
-            maskImage:
-              "url('data:image/svg+xml;utf8,<svg fill=\\'white\\' xmlns=\\'http://www.w3.org/2000/svg\\' viewBox=\\'0 0 24 24\\'><path d=\\'M8.59 16.59L13.17 12 8.59 7.41 10 6l6 6-6 6z\\'/></svg>')",
-            WebkitMaskImage:
-              "url('data:image/svg+xml;utf8,<svg fill=\\'white\\' xmlns=\\'http://www.w3.org/2000/svg\\' viewBox=\\'0 0 24 24\\'><path d=\\'M8.59 16.59L13.17 12 8.59 7.41 10 6l6 6-6 6z\\'/></svg>')",
-            maskRepeat: 'no-repeat',
-            maskPosition: 'center',
-            maskSize: 'contain',
-            WebkitMaskRepeat: 'no-repeat',
-            WebkitMaskPosition: 'center',
-            WebkitMaskSize: 'contain',
-          }}
-        ></span>
+        <span>
+          <img src="./arrow.svg" className="w-[19px] h-[19px] hover:scale-125 transition-transform max-[1068px]:w-[16px] max-[480px]:w-[15px]"/>
+        </span>
 
         <span className="cursor-default">Carrinho</span>
       </div>

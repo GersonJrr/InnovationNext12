@@ -1,7 +1,7 @@
-import { FaUser, FaLock } from 'react-icons/fa6';
-import Button from '../Components/Login/Button';
-import CardLogin from '../Components/Login/Card';
-import ContainerLogin from '../Components/Login/ContainerLogin';
+import { FaUser, FaLock } from 'react-icons/fa';
+import Button from '../components/Login/Button';
+import CardLogin from '../components/Login/Card';
+import ContainerLogin from '../components/Login/ContainerLogin';
 
 export default function Login() {
   return (

@@ -1,8 +1,7 @@
 import Link from 'next/link';
-
-import { FaPhoneAlt } from "react-icons/fa";
-import { FaCartShopping } from "react-icons/fa6";
+import  {FaPhoneAlt}  from "react-icons/fa";
 import { useCart } from '../Context/CartContext';
+
 
 export default function Navbar() {
   const { carrinho } = useCart();
@@ -28,7 +27,7 @@ export default function Navbar() {
       <ul className="list-none flex gap-[30px] items-center m-0 p-0 max-[1068px]:gap-[15px] max-[480px]:gap-[20px]">
         <li>
           <a href="#">
-            
+            <img src="./mail.svg" className="w-[19px] h-[19px] invert hover:scale-125 transition-transform max-[1068px]:w-[16px] max-[480px]:w-[15px]"/>
           </a>
         </li>
 
@@ -41,7 +40,7 @@ export default function Navbar() {
         <li className="relative">
           <Link href="/carrinho">
             <div className="relative flex items-center">
-              <FaCartShopping className="text-branco text-[23px] hover:scale-125 transition-transform max-[1068px]:text-[18px] max-[480px]:text-[21px]" />
+              <img src='./carrinho.svg' className="w-[19px] h-[19px] invert hover:scale-125 transition-transform max-[1068px]:w-[16px] max-[480px]:w-[15px]" />
               {quantidadeItens > 0 && (
                 <span className="absolute top-[-10px] right-[-10px] bg-branco text-[var(--verde-color)] text-xs px-[6px] py-[3px] rounded-full font-bold">
                   {quantidadeItens}
