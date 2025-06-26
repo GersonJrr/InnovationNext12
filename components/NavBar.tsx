@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import { MdEmail } from 'react-icons/md';
+
 import { FaPhoneAlt } from "react-icons/fa";
 import { FaCartShopping } from "react-icons/fa6";
 import { useCart } from '../Context/CartContext';
@@ -28,7 +28,7 @@ export default function Navbar() {
       <ul className="list-none flex gap-[30px] items-center m-0 p-0 max-[1068px]:gap-[15px] max-[480px]:gap-[20px]">
         <li>
           <a href="#">
-            <MdEmail className="text-branco text-[29px] hover:scale-125 transition-transform max-[1068px]:text-[22px] max-[480px]:text-[25px]" />
+            
           </a>
         </li>
 
