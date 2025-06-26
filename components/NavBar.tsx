@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import { MdEmail } from "react-icons/md";
+import { MdEmail } from 'react-icons/md';
 import { FaPhoneAlt } from "react-icons/fa";
 import { FaCartShopping } from "react-icons/fa6";
 import { useCart } from '../Context/CartContext';
