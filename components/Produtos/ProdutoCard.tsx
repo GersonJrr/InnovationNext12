@@ -50,7 +50,7 @@ export function ProdutoCard({ produto }: ProdutoCardProps) {
 
   return (
     <div className="flex flex-col items-center w-full max-w-[300px] h-[600px] mx-auto sm:mx-0">
-      <header className="mb-2 w-full">
+      <header className="mb-2 w-full text-center">
         <h2
           title={produto.nome}
           className="font-bold h-5 overflow-hidden text-ellipsis whitespace-nowrap"
@@ -59,11 +59,12 @@ export function ProdutoCard({ produto }: ProdutoCardProps) {
         </h2>
         <p
           title={produto.codigo_produto.toString()}
-          className="text-sm h-5 overflow-hidden text-ellipsis whitespace-nowrap text-center"
+          className="text-sm h-5 overflow-hidden text-ellipsis whitespace-nowrap"
         >
           {produto.codigo_produto}
         </p>
       </header>
+
       
       <article
         role="listitem"
